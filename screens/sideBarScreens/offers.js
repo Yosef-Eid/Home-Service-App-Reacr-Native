@@ -78,7 +78,7 @@ const Files = () => {
         </View>
 
         <Text style={styles.sectionTitle}>Current Promotions</Text>
-        
+
         <View style={styles.offersGrid}>
           {offers.filter(o => !o.isFeatured).map(offer => (
             <TouchableOpacity key={offer.id} style={styles.offerCard}>
